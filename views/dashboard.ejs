@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dashboard</title>
+    </head>
+    <body>
+        <div class="header">
+            <a href="/logout">logout</a>
+        </div>
+        <h1>Profile</h1>
+        <p>Name : <%= name1 %></p>
+        <p>Email: <%= email %></p>
+        <p>Phone: <%= phone %></p>
+        <button><a href="/reset/:token">Reset Password</a></button>
+        <div class="footer">
+            <button class="update"><a href="/update">Update your profile</a></button>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,55 @@
+body{
+    width:100%;
+}
+.header{
+    width: 100%;
+    overflow:hidden;
+    position: relative;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+}
+
+.header .logo #logo{
+    width: 80px;
+    height: auto;
+    display: inline;
+    float: left;
+    border-radius: 5px;
+} 
+.centreleft{
+    width: 60%;
+    height: auto;
+    display: inline-block;
+}
+.centre{
+    width: 40%;
+    height: auto;
+    display: inline-block;
+    margin: 10px;
+    margin-top: 50px;
+
+}
+.centre button a{
+    float:right;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: cornsilk;
+    font-style: normal;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid 1px rgb(160, 203, 243);
+    border-radius: 5px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    color:rgb(160, 203, 243);
+}
+.header button  a:hover{
+    background-color: rgb(5, 5, 5);
+    margin: 15px;
+    border: sold 1px #000;
+    border-radius: 5px;
+}

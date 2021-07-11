@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>register</title>
+    </head>
+    <body>
+        <h1>Sign up</h1>
+        <form action="/register" method="POST">
+            <label for="username">UserName</label>
+            <input type="text" id="username" name="username">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+            <label for="phone">Mobile No:-</label>
+            <input type="number" name="phone" id="phone" pattern="[0-9]{2}-[0-9]{10}">
+            <label for="email">Email:-</label>
+            <input type="email" name="email" id="email">
+            <button>Submit</button>
+            <input type="reset">
+        </form>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/login">login</a></li>
+        </ul>
+    </body>
+</html>
